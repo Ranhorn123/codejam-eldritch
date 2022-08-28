@@ -1,10 +1,8 @@
-import difficulties from "../data/difficulties.js";
-import  ancients from "../data/ancients.js";
 import {
     brownCards,
     blueCards,
     greenCards
-} from "../data/mythicCards/index.js"
+} from "./data/mythicCards/index.js"
 import ancientsData from "./data/ancients.js";
 const card1= document.querySelector('.card-1');
 const last_card=document.querySelector('.last-card')
