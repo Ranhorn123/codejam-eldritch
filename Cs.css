@@ -1,0 +1,97 @@
+body{
+     /* width: 1920px;  */
+  /* height: 1080px;  */
+     
+}
+.wrapper{
+display: flex;
+gap: 20px;
+width: 100%;
+justify-content: space-between;
+height: 100vh;
+background: url("../assets/home.png") no-repeat; 
+background-size: cover;
+
+}
+.ancients-container{
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 20px;
+min-width: 40%;
+gap: 10px;
+}
+.ancients-card{
+  display: flex;
+  background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 340px;
+    width: 200px;
+    border-style:solid;
+    border-width:10px;
+    border-color: white;
+}
+.ancients-card:focus, .ancients-card:hover{
+border-color: rgb(78, 20, 20);
+}
+.border-black{
+    border-color: black !important;
+    z-index: 100;
+}
+ .card-1{
+background-image: url("../assets/Ancients/Azathoth.png");
+
+}
+.card-2{
+background-image: url("../assets/Ancients/Cthulthu.png");
+}
+.card-3{
+background-image: url("../assets/Ancients/IogSothoth.png");
+}
+.card-4{ 
+background-image: url("../assets/Ancients/Azathoth.png");
+} 
+.difficulty-container {
+    display: flex;
+    height : 250px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25%;
+    gap: 10px;
+}
+.difficulty:hover{
+    background-color: blue;
+}
+.difficulty{
+     height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.difficulty-1{
+    background-color: blue;
+    z-index: 100;
+}
+
+.deck-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    min-width: 30%;
+}
+.deck{
+width: 130px;
+height: 190px;
+background-image: url("./assets/mythicCardBackground.png");
+}
+.last-card{
+    width: 130px;
+    height: 190px;
+    background-size: cover;
+}
