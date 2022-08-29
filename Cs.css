@@ -5,7 +5,8 @@ gap: 20px;
 width: 100%;
 justify-content: space-between;
 height: 100vh;
-background: url("../assets/home.png") no-repeat; 
+background: url("./assets/home.png") no-repeat; 
+background-size: cover;
 
 }
 .ancients-container{
